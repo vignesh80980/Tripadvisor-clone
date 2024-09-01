@@ -153,17 +153,18 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
 }
-.searchbar__s1{
+
+.searchbar__s1 {
     border: solid black 1px;
     border-radius: 30px;
     margin-top: 10px;
     padding: 20px;
     display: flex;
-    width:50%;
+    width: 50%;
     gap: 10px;
-    border-color:transparent;
+    border-color: transparent;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: relative;
 
@@ -173,18 +174,20 @@ body {
     width: 20px;
     height: 20px;
 }
-.searchbar__text{
+
+.searchbar__text {
     border: none;
     font-size: 16px;
     width: 280px;
-    
+
 }
-.searchbar__btn{
+
+.searchbar__btn {
     position: absolute;
     right: 20px;
     border-radius: 30px;
     width: 100px;
-    border-color:transparent;
+    border-color: transparent;
     height: 50px;
     top: 5px;
     font-size: 16px;
@@ -192,13 +195,15 @@ body {
     background-color: #34E0A1;
     cursor: pointer;
 }
-.header__img{
+
+.header__img {
     display: flex;
     flex-wrap: wrap;
     margin-top: 60px;
     position: relative;
 }
-.header__img--main img{
+
+.header__img--main img {
     width: 85%;
     height: 100%;
     background-color: #D6DAF9;
@@ -206,7 +211,8 @@ body {
     left: 150px;
     border-radius: 10PX;
 }
-.header__img--discription{
+
+.header__img--discription {
     position: absolute;
     width: 400px;
     height: 50px;
@@ -214,34 +220,39 @@ body {
     left: 300px;
 
 }
-.header__img--dis1{
+
+.header__img--dis1 {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
-.header__img--dis1 h5{
+
+.header__img--dis1 h5 {
     background-color: white;
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
 }
-.header__img--dis1 p{
-    font-weight:normal;
+
+.header__img--dis1 p {
+    font-weight: normal;
     font-size: small;
 }
 
-.header__img--dis2{
+.header__img--dis2 {
     color: #301D49;
 }
-.header__img--dis2 h1{
+
+.header__img--dis2 h1 {
     font-size: 45px;
     font-weight: bold;
 }
-.header__img--dis2 p{
+
+.header__img--dis2 p {
     font-weight: bold;
 }
 
-.header__img--dis3{
+.header__img--dis3 {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
@@ -254,8 +265,72 @@ body {
     cursor: pointer;
 }
 
-.header__img--dis3 img{
+.header__img--dis3 img {
     width: 20px;
     height: 20px;
 
+}
+
+.selection__img1 {
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 120px;
+
+}
+
+.selection__disc {
+    margin: 10px;
+}
+
+.selection__disc p {
+    font-weight: 300;
+    font-size: 300;
+}
+
+.selection__img1--collections img {
+    width: 250px;
+    margin-left: 15px;
+    border-radius: 10px;
+    height: 250px;
+    cursor: pointer;
+}
+.selection__img2{
+    margin-top: 100px;
+    margin-left: 120px;
+    padding: 10px;
+}
+.selection__img2--disc{
+    margin: 10px;
+}
+.selection__img2--disc p{
+    font-weight: 300;
+    font-size: 300;
+}
+.selection__img2--collections{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.selection__img2--s1 img{
+    width: 250px;
+    margin-left: 15px;
+    border-radius: 10px;
+    height: 250px;
+    cursor: pointer;
+   
+}
+.selection__img2--s1{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    
+}
+.like-heart1{
+    position: absolute;
+    top: 8px;
+    left: 220px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
 }
