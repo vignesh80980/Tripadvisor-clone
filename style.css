@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navpar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.navpar__s1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 5px;
+
+}
+
+.navpar__s1--icon img {
+    width: 40px;
+    height: 40px;
+    background-color: #34E0A1;
+    border-radius: 50%;
+    margin-top: 5px;
+
+}
+
+.navpar__s1--title {
+    font-size: 16px;
+
+}
+
+.navpar__s2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 30px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navpar__s2 p {
+    height: fit-content;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.navpar__s2 p:hover {
+    background-color: lightgrey;
+}
+
+.navpar__s3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    gap: 10px;
+    cursor: pointer;
+    align-items: center;
+    height: fit-content;
+}
+
+.navpar__s3--icon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+.navpar__s3--icon img {
+    width: 15px;
+    height: 15px;
+    margin-top: 3px;
+}
+
+.navpar__s3--icon:hover {
+    background-color: lightgrey;
+}
+
+
+.navpar__s3--sign {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    cursor: pointer;
+
+
+}
+
+.navpar__s3--cun {
+    width: fit-content;
+    height: fit-content;
+    padding-left: 5px;
+    border-left: solid lightgrey 1px;
+}
+
+.discription {
+    position: relative;
+    left: 600px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.menu__buttons {
+    padding: 10px;
+}
+
+.menu__buttons img {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    position: relative;
+    top: 10px;
+}
+
+.menu__buttons button {
+    padding: 10px;
+    background-color: transparent;
+
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold
+}
+
+.menu__buttons button:hover {
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+.searchbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.searchbar__s1{
+    border: solid black 1px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    width:50%;
+    gap: 10px;
+    border-color:transparent;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+
+}
+
+.searchbar__img {
+    width: 20px;
+    height: 20px;
+}
+.searchbar__text{
+    border: none;
+    font-size: 16px;
+    width: 280px;
+    
+}
+.searchbar__btn{
+    position: absolute;
+    right: 20px;
+    border-radius: 30px;
+    width: 100px;
+    border-color:transparent;
+    height: 50px;
+    top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #34E0A1;
+    cursor: pointer;
+}
+.header__img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    position: relative;
+}
+.header__img--main img{
+    width: 85%;
+    height: 100%;
+    background-color: #D6DAF9;
+    position: relative;
+    left: 150px;
+    border-radius: 10PX;
+}
+.header__img--discription{
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    top: 100px;
+    left: 300px;
+
+}
+.header__img--dis1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.header__img--dis1 h5{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header__img--dis1 p{
+    font-weight:normal;
+    font-size: small;
+}
+
+.header__img--dis2{
+    color: #301D49;
+}
+.header__img--dis2 h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.header__img--dis2 p{
+    font-weight: bold;
+}
+
+.header__img--dis3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #301D49;
+    color: white;
+    width: fit-content;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.header__img--dis3 img{
+    width: 20px;
+    height: 20px;
+
+}
