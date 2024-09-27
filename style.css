@@ -334,3 +334,33 @@ body {
     padding: 5px;
     cursor: pointer;
 }
+@media screen and (max-width:800px){
+    body{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:500px){
+    .selection__img2--collections{
+        flex-basis:40%
+    }
+    .navpar__s2{
+        display: none;
+    }
+    .discription{
+        display: none;
+    }
+    .header__img{
+      display: none;
+    }
+    .selection__img2--s1{
+        width: 50%;
+        height: 50%;
+
+    }
+    .selection__img2--s1 h4{
+        margin-top: 10px;
+    
+    }
+
+
+}
